@@ -5,12 +5,6 @@
 #ifndef BLACKJACK_GETNAME_H
 #define BLACKJACK_GETNAME_H
 
-void getName(char name[])
-{
-    printf("What is your name?");
-    scanf(" ");
-    scanf("%s",name);       //read name
-    printf("\n");
-}
+void getName(char name[]);
 
 #endif //BLACKJACK_GETNAME_H

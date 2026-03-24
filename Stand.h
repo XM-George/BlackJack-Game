@@ -5,20 +5,6 @@
 #ifndef BLACKJACK_STAND_H
 #define BLACKJACK_STAND_H
 
-int Stand(char name[], int sum, int Ace)
-{
-
-    if(sum!=21)
-    {
-        printf("\n%s you chose Stand\n",name);
-    }
-
-    //prints the total after stand
-
-    printf("Final total is %d\n\n",sum);
-
-    return sum;
-
-}
+int Stand(char name[], int sum, int Ace);
 
 #endif //BLACKJACK_STAND_H

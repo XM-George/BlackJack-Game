@@ -1,26 +1,20 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-#include <string.h>
 #include <stdbool.h>
-#include "Credits.h"
-#include "GetRoyalCard.h"
-#include "GetSymbol.h"
-#include "RNG.h"
-#include "SymbEnum_StrCrds.h"
-#include "GetName.h"
-#include "DealP.h"
-#include "DealD.h"
-#include "HitORStand.h"
-#include "DecreaseAceTo_1.h"
-#include "GameOver.h"
-#include "Hit.h"
-#include "Stand.h"
-#include "IsBlackJack.h"
 #include "CheckWinner.h"
+#include "Credits.h"
+#include "DealD.h"
+#include "DealP.h"
+#include "GetName.h"
+#include "Hit.h"
+#include "HitORStand.h"
 #include "PlayAgain.h"
+#include "Stand.h"
+#include "SymbEnum_StrCrds.h"
 
-//an 21 sto proto deal na stamatei i hit
+
+//an 21 sto proto deal na stamata i hit
 
 int main()
 {
@@ -52,13 +46,13 @@ int main()
         }
 
 
-        int num,sumPlayer=0,sumDealer=0;        //users sums
+        int sumPlayer=0,sumDealer=0;        //users sums
         int cardsP=0,cardsD=0;          //users card count
         int AceP=0, AceD=0;             //users ace count
 
 
 
-        srand(time(NULL));
+        srand(time(NULL)); // NOLINT(*-msc51-cpp)
 
 
 
@@ -68,8 +62,7 @@ int main()
 
 
 
-        char input;     //Help for Stand or Hit
-        input=HitORStand(name, sumPlayer);      //Determine Hit or Stand for player
+        char input=HitORStand(name, sumPlayer);      //Determine Hit or Stand for player
 
 
 

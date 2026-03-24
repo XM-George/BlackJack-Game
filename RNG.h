@@ -5,14 +5,8 @@
 #ifndef BLACKJACK_RNG_H
 #define BLACKJACK_RNG_H
 
-int RNGcard()
-{
-    return 1 + rand()%13;
-}
+int RNGcard();
 
-int RNGsymbol()
-{
-    return 1 + rand()%4;
-}
+int RNGsymbol();
 
 #endif //BLACKJACK_RNG_H
