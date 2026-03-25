@@ -15,4 +15,6 @@ void credFix(int *credTotal, int credits, bool transaction);
 
 void displayCred(int credTotal, char name[]);
 
+int readCred();
+
 #endif //BLACKJACK_CREDITS_H
