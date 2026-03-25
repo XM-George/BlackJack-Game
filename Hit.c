@@ -19,8 +19,8 @@ int Hit(char name[], int sum, Card S[], int *cards, int *Ace, bool *isEleven)
 
     printf("\n%s you chose Hit and got ",name);
 
-    num = RNGcard();        //rng card
-    symbol = RNGsymbol();   //rng symbol
+    num = rngCard();        //rng card
+    symbol = rngSymbol();   //rng symbol
 
     S[*cards].num = num;
     S[*cards].symbol = symbol;

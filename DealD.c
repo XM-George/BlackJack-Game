@@ -15,8 +15,8 @@ int DealD(char name[], int sum, Card S[], int *cards, int *Ace, bool *isEleven)
     int num=0, symbol=0;
     printf("%s got ",name);
 
-    num=RNGcard();    //rng card
-    symbol=RNGsymbol();     //rng symbol
+    num=rngCard();    //rng card
+    symbol=rngSymbol();     //rng symbol
 
     S[*cards].num=num;
     S[*cards].symbol=symbol;

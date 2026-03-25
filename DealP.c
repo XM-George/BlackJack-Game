@@ -19,8 +19,8 @@ int DealP(char name[], int sum, Card S[], int *cards, int *Ace, bool *isEleven)
 
     for (int i=0;i<2;i++)
     {
-        num=RNGcard();    //rng card
-        symbol=RNGsymbol();     //rng symbol
+        num=rngCard();    //rng card
+        symbol=rngSymbol();     //rng symbol
 
         S[*cards].num=num;
         S[*cards].symbol=symbol;

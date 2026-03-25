@@ -2,9 +2,9 @@
 // Created by George on 24/03/2026.
 //
 
-#ifndef BLACKJACK_ISBLACKJACK_H
-#define BLACKJACK_ISBLACKJACK_H
+#ifndef BLACKJACK_IS_BLACKJACK_H
+#define BLACKJACK_IS_BLACKJACK_H
 
 bool IsBlackJack(Card S[]);
 
-#endif //BLACKJACK_ISBLACKJACK_H
+#endif //BLACKJACK_IS_BLACKJACK_H

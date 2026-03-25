@@ -5,8 +5,8 @@
 #ifndef BLACKJACK_RNG_H
 #define BLACKJACK_RNG_H
 
-int RNGcard();
+int rngCard();
 
-int RNGsymbol();
+int rngSymbol();
 
 #endif //BLACKJACK_RNG_H
